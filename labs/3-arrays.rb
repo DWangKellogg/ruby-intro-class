@@ -14,3 +14,15 @@
 # HINTS
 # Learn to read the documentation!
 # https://ruby-doc.org/core-2.7.0/Array.html
+
+ben_shopping_list = ["coffee", "oatly", "diapers", "beer"]
+brian_shopping_list = ["beer", "tacos"]
+combined_list = ben_shopping_list + brian_shopping_list
+
+
+unique_combined_list = combined_list.uniq
+sorted_combined_list = unique_combined_list.sort
+puts sorted_combined_list
+
+#can chain uniq.sort.union etc
+
